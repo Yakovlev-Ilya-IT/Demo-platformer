@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 160e760c0d80a9b46beee66d1da0a563, type: 3}
+  m_Name: CharacterConfig
+  m_EditorClassIdentifier: 
+  _runningStateConfig:
+    _speed: 10
+  _airborneStateConfig:
+    _jumpingStateConfig:
+      _speed: 8
+      _maxHeight: 7
+      _timeToReachMaxHeight: 0.5
+      _brakingMultiplier: 20
+    _fallingStateConfig:
+      _gravityMultiplier: 2
+  _hurtStateConfig:
+    _startYVelocity: 30
+    _startXVelocity: 20
+    _brakingMultiplier: 10
+    _baseGravity: 120
